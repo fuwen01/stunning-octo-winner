@@ -21,9 +21,9 @@ To guess the winning answer, one can simply take the average of this geometric s
 
 Assuming that there is an even distribution of people with varying rationalities (assuming there is an equal amount of thinkers in each order) explains that.
 
-As such, a skewed normal distribution is taken and we are able to obtain a winning guess of 0.17 when we set the average/peak of the normal distribution to the 1.5-th order (most people are a 1.5-th order thinker). This value is close to experimental value of 0.216.
-
 In this script, we plot the graph of Guess vs Order as well as the distribution of the thinkers. 2 ways are also used to determine x_sum: 1 being iteration and another being recursion through fold.
 
-![image](https://user-images.githubusercontent.com/64541670/155877279-50015685-91f2-4a4a-836d-710ff912e80c.png)
-![image](https://user-images.githubusercontent.com/64541670/155877296-526079b0-ce18-4e6b-82de-dfed2aae74e9.png)
+As such, a skewed normal distribution is taken and we are able to obtain a winning guess of 0.211 through fitted parameters when we set the average/peak of the normal distribution to the 1.4-th order (most people are a 1.4-th order thinker). This value is close to experimental value of 0.216.
+
+![image](https://user-images.githubusercontent.com/64541670/155878315-93198553-8e12-4ced-a5bc-743f12ad4328.png)
+![image](https://user-images.githubusercontent.com/64541670/155878321-31e30ec2-8f37-4b83-8486-bc9924883353.png)
