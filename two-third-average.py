@@ -103,32 +103,15 @@ def new_x_sum(n,m,k): #n is last order to consider; m is some factor of y-peak
     return val*r/divisor
 
 #Test
-print("You should guess:", new_x_sum(10,2,1.5))
+print("You should guess:", new_x_sum(10,1.4,1))
 plt.show()
 
+##########################################################################################################################################################################################################
 
+#fitting m and k
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+##for m in range(10,25):
+##    for k in range(10,25):
+##        if abs(new_x_sum(10,m/10,k/10)-0.21)<=0.01:
+##            print(m,k,new_x_sum(10,m/10,k/10))
 
