@@ -23,5 +23,5 @@ Assuming that there is an even distribution of people with varying rationalities
 
 As such, a skewed normal distribution is taken and we are able to obtain a winning guess of 0.17 when we set the average/peak of the normal distribution to the 1.5-th order (most people are a 1.5-th order thinker).
 
-
+In this script, we plot the graph of Guess vs Order as well as the distribution of the thinkers. 2 ways are also used to determine x_sum: 1 being iteration and another being recursion through fold.
 
